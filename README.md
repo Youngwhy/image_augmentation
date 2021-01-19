@@ -14,8 +14,8 @@ imageaug.py 의Randomaffine, RadomBrCtBl 함수에서 변수 범위 설정후
 targetfolder와 augmented image가 들어갈 폴더 경로를 지정해주고 Randomautoaug를 실행하면 자동으로 augmentation을 해서 파일에 저장됨
 
 ```
-targetfolderpath = 'C:/Users/NOTA0903/Desktop/images'
-augmentedfolder = 'C:/Users/NOTA0903/Desktop/augmented_output/'
+targetfolderpath = 'path/images'
+augmentedfolder = 'path/augmented_output/'
 Randomautoaug(targetfolderpath,augmentedfolder)
 ```
 ![before_aug](https://user-images.githubusercontent.com/69490987/105013417-92cba500-5a82-11eb-965a-d4af8d582186.PNG)
